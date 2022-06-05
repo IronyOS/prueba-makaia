@@ -1,0 +1,33 @@
+.icon-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons {
+    font-size: 30px;
+    color: #696969;
+    text-decoration: none;
+    padding: 15px;
+    transition-duration: 1s;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.footer{
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text{
+    font-size: 15px;
+    text-align: center;
+    color: #696969;
+    font-family: 'Rochester', sans-serif;
+    font-weight: bold;
+}

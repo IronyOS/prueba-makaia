@@ -25,9 +25,12 @@ ul li {
     list-style: none;
     width: 200px;
     background-color: #3e3f46;
-    padding: 15px;
+    padding: 25px;
     z-index: var(--i);
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
 }
 
 ul li:hover {
@@ -70,7 +73,7 @@ ul li::after {
 }
 
 
-ul li .a {
+ul li .link {
     text-decoration: none;
     color: #999;
     display: block;
@@ -79,7 +82,7 @@ ul li .a {
     transition: 0.5s;
 }
 
-ul li:hover .a {
+ul li:hover .link {
     color: #fff;
 }
 
