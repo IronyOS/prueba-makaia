@@ -1,0 +1,75 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: grey;
+    font-family: 'Nunito';
+    cursor: pointer;
+}
+
+.btn-modal:hover {
+    background-color: #f5f5f5;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Nunito';
+    font-weight: bold;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    background-color: grey;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.gh-icon{
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}

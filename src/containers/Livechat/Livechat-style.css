@@ -1,0 +1,66 @@
+.chat-container{
+    background-image: url(https://besthqwallpapers.com/Uploads/25-11-2017/30477/thumb2-linear-icons-4k-art-dark-background-references.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 510px;
+    border-radius: 10px;
+    margin-bottom: -230px;
+}
+
+.chat-message{
+    background-color: beige;
+    border-radius: 10px;
+    width: 380px;
+    margin: 350px 10px 10px 27px;
+    padding: 1px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+input{
+    /* padding: 10px 100px 10px 10px; */
+    width: 600px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.chat-send{
+    
+    padding: 10px 0px 8px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon4 {
+    padding: 7px;
+    font-size: 35px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.first-message{
+    margin-left: 6px;
+}
+
+.icon4:hover{
+    background-color: #00ff00;
+    transition: 1s;
+}
+
+.son3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: -260px;
+}

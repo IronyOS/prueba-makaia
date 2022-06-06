@@ -1,6 +1,7 @@
 import Navigation from "../Nav/Navigation";
 import "./Home-style.css";
 import Footer from "../footer/Footer";
+import Modal from "../Pop-up/pop-up";
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
                 <h1 className="title">Bienvenido A <br></br>Rainy Cloud Services</h1>
                 {/* <p className="code1"></p> */}
                 <div className="description-container">
-                <p className="description"> {/*<span className="span1"></span>*/}Aloja tu información en la nube completamente gratis{/* <span className="span2"></span>*/}</p>
+                <p className="description"> {/*<span className="span1"></span>*/}Ayudamos a tu marca a tener mejor ubicación en la web.{/* <span className="span2"></span>*/}</p>
                 
                 </div>
                 </div>
@@ -38,9 +39,10 @@ export default function Home() {
                         <span style={{"--i": "15"}}></span>
                     </div>
                 </div>
-                
             </div>
-            
+        </div>
+        <div className="pop-up">
+        <Modal />
         </div>
         <Footer />
         </div>

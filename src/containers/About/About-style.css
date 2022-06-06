@@ -1,0 +1,99 @@
+.icon2{
+    font-size: 40px;
+    color: #696969;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.description-paragraph{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.son2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+    animation-duration: 1s;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.span{
+    font-size: 15px;
+    color: #696969;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.card1:hover{ 
+  
+    background-color: #f5f5f5;
+    border: 1px grey solid;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+   
+}
+
+.card3:hover{ 
+    background-color: #f5f5f5;
+    border: 1px grey solid;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    
+}
+
+.card2:hover{ 
+    background-color: #f5f5f5;
+    border: 1px grey solid;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    
+}
+
+.title-about{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: -60px;
+}
